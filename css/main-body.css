@@ -1,0 +1,73 @@
+/* CSS for the main body in the webpage */
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+main > .about-code-pen {
+    color: #c4c4c7;
+    font-size: 2em;
+    font-weight: 300;
+    margin: 10px 40px 40px 40px;
+    width: 60%;
+}
+main > .about-code-pen p:nth-child(2) {
+    font-size: 1.75rem;
+}
+main > .about-code-pen span {
+    color: #ffffff;
+    font-weight: 700;
+}
+main > .about-code-pen > .button-container {
+    display: flex;
+}
+main > .about-code-pen > .button-container > .sign-up-btn {
+    font-weight: 700;
+    background-color: #7cca81;
+    font-size: 0.9em;
+    width: fit-content;
+    margin-right: 10px;
+    padding: 15px 20px;
+    border-radius: 3px;
+}
+main > .about-code-pen > .button-container > .sign-up-btn a {
+    color: black;
+    text-decoration: none;
+}
+main > .about-code-pen > .button-container > .learn-more-btn {
+    font-weight: 700;
+    background-color: #111111;
+    font-size: 0.9em;
+    width: fit-content;
+    margin-left: 10px;
+    padding: 15px 20px;
+    border-radius: 3px;
+}
+main > .about-code-pen > .button-container > .learn-more-btn a{
+    color: white;
+    text-decoration: none;
+}
+main > .code-pen-example {
+    width: 40%;
+    margin-left: 40px;
+}
+main > .code-pen-example p {
+    color: #ffffff;
+    font-size: 1.25em;
+    font-weight: 700;
+    min-width: 800px;
+    margin-left:10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+main > .code-pen-example p span{
+    color: #8ac9ef
+}
+main > .code-pen-example > .main-project-img {
+    box-shadow: 5px 0px 10px 10px #191a1c;
+}
+main > .code-pen-example > .main-project-img img {
+    width: 100%;
+    height: auto;
+}
+

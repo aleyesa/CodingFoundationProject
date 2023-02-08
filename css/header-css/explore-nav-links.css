@@ -1,0 +1,31 @@
+/* CSS for middle nav links in header */
+.top-page > .explore-nav-links {
+    padding: 10px 20px;
+}
+.top-page > .explore-nav-links h2 {
+    font-size: 1em;
+    color: #f5dd5f;
+    margin: 0px 0px;
+}
+.top-page > .explore-nav-links > .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.top-page > .explore-nav-links > .nav-links a {
+    color: white;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+.top-page > .explore-nav-links > .nav-links > .spark-dropdown{
+    color: #7c7e8a;
+    text-decoration: none;
+    font-size: 1.25em;
+    padding-left: 20px;
+    
+}
+
+.top-page > .explore-nav-links > .nav-links > .spark-dropdown .fa-chevron-down {
+    margin-left: 10px;
+}

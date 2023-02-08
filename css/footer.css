@@ -1,0 +1,17 @@
+/* CSS for the bottom portion of the webpage */
+.footer-codepen-categories {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-codepen-categories div {
+    background-color: #37383e;
+    border: 1px solid #676767;
+    width: 100%;
+}
+.footer-codepen-categories div p {
+    color: white;
+    text-align: center;
+}
+.footer-codepen-categories p span {
+    font-size: 1.25em;
+}

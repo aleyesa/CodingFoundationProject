@@ -1,0 +1,46 @@
+/* CSS for right side  buttons and links in the header  */
+.top-page > .right-side-menu-options {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+}
+.top-page > .right-side-menu-options > .create-dropdown h2{
+    background-color: #37383e;
+    font-size: 1.2em;
+    margin: 0px 10px;
+    padding: 15px 20px;
+    border-radius: 3px;
+}
+.top-page > .right-side-menu-options > .create-dropdown > h2 > .fa-chevron-down {
+    color: lightgreen;
+    padding-left: 5px;
+}
+.top-page > .right-side-menu-options > .search-icon > .fa-magnifying-glass {
+    color: #7c7e8a;
+    font-size: 2em;
+    margin: 20px 10px;
+}
+.top-page > .right-side-menu-options > .login-btn {
+    background-color: #37383e;
+    font-size: 1.2em;
+    margin: 0px 10px;
+    padding: 15px 20px;
+    border-radius: 3px;
+}
+.top-page > .right-side-menu-options > .login-btn a{
+    color: white;
+    text-decoration: none;
+}
+.top-page > .right-side-menu-options > .sign-up-btn {
+    background-color: #37383e;
+    font-size: 1.2em;
+    margin: 0px 5px;
+    padding: 15px 20px;
+    border-radius: 3px;
+}
+.top-page > .right-side-menu-options > .sign-up-btn a{
+    color: white;
+    text-decoration: none;
+}
+

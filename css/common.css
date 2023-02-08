@@ -1,0 +1,7 @@
+/* CSS default styling */
+body {
+    background-image: linear-gradient(to bottom right, #36393f, #1a1b1f);
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
